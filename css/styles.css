@@ -718,3 +718,16 @@ input[type="checkbox"]:checked+label .checkbox-icon {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;
 }
+
+.user_label,
+.comment_label,
+.privacy_label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--label-color, #8e8f99);
+}
+
+.privacy-policy-link {
+    color: var(--link-color, #4d5ae5);
+}

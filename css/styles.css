@@ -32,7 +32,12 @@ a {
     display: block;
     padding: 0 15px;
     margin: 0 auto;
-    padding: 0 15px;
+}
+
+.container-form {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
 }
 
 .form-title {
@@ -49,6 +54,10 @@ a {
     gap: 24px;
 }
 
+.form-label {
+    display: block;
+}
+
 .form-input {
     width: 264px;
     height: 40px;
@@ -60,6 +69,10 @@ a {
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    color: #ffffff;
+}
+
+.form-input::placeholder {
     color: #ffffff;
 }
 
@@ -79,6 +92,10 @@ a {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+}
+
+.button-icon {
+    margin-left: 16px;
 }
 
 .page-header {
